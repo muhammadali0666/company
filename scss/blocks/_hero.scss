@@ -1,0 +1,304 @@
+.hero-inner {
+    padding-top: 32px;
+    padding-bottom: 58px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-left-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.hero-left-list {
+    padding-left: 0;
+}
+.hero-left-list-box {
+    display: flex;
+    align-items: center;
+}
+.hero-left-list-box-img {
+    margin-right: 8px;
+}
+.hero-left-list-p {
+   
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #060F42;
+}
+.hero-right {
+    max-width: 1145px;
+}
+.slider-paragraph {
+   
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 58px;
+color: #FFFFFF;
+}
+.slider-p {
+    margin-top: 32px;
+   
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #CDCDCD;
+} 
+.hero-right-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-right-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100px;
+    margin-top: 100px;
+}
+.hero-right-img {
+    margin-bottom: 11px;
+}
+.banner-btn {
+   
+font-style: normal;
+font-weight: 900;
+font-size: 10px;
+line-height: 12px;
+color: #FFFFFF;
+border: none;
+background: #E93232;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+border-radius: 4px;
+padding: 15px 40px;
+}
+.hero-right-item-p {
+   
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 12px;
+text-align: center;
+color: #060F42;
+}
+.carousel-caption {
+    position: absolute;
+left: 5%;
+right: 50%;
+top: 10%;
+display: flex;
+flex-direction: column;
+align-items: start;
+}
+.carousel-caption {
+    text-align: left;
+}
+@media only screen and (max-width: 1214px) {
+    .hero-inner {
+        padding-top: 32px;
+        padding-bottom: 58px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero-left-list-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .hero-left-list {
+        padding-left: 0;
+        display: none;
+    }
+    .hero-left-list-box {
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+    .hero-left-list-box-img {
+        margin-right: 8px;
+    }
+    .hero-left-list-p {
+       
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #060F42;
+    }
+    .hero-right {
+        max-width: 1145px;
+    }
+    .slider-paragraph {
+       
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    }
+    .slider-p {
+        margin-top: 32px;
+       
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #CDCDCD;
+    } 
+    .hero-right-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero-right-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100px;
+        margin-top: 100px;
+    }
+    .hero-right-img {
+        margin-bottom: 11px;
+    }
+    .banner-btn {
+       
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    border: none;
+    background: #E93232;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    padding: 15px 40px;
+    }
+    .hero-right-item-p {
+       
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #060F42;
+    }
+    .carousel-caption {
+        position: absolute;
+    left: 5%;
+    right: 50%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    }
+    .carousel-caption {
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .hero-inner {
+        padding-top: 32px;
+        padding-bottom: 28px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero-left-list-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .hero-left-list {
+        padding-left: 0;
+        display: none;
+    }
+    .hero-left-list-box {
+        display: flex;
+        align-items: center;
+        display: none;
+    }
+    .hero-left-list-box-img {
+        margin-right: 8px;
+    }
+    .hero-left-list-p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #060F42;
+    }
+    .hero-right {
+        max-width: 1145px;
+    }
+    .slider-paragraph {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px;
+    color: #FFFFFF;
+    }
+    .slider-p {
+        margin-top: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #CDCDCD;
+    } 
+    .hero-right-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 0;
+    }
+    .hero-right-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100px;
+        margin-top: 40px;
+    }
+    .hero-right-item-extra {
+        display: none;
+    }
+    .hero-right-img {
+        margin-bottom: 11px;
+    }
+    .banner-btn {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+    border: none;
+    background: #E93232;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    padding: 10px 20px;
+    }
+    .hero-right-item-p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #060F42;
+    }
+    .carousel-caption {
+        position: absolute;
+    left: 5%;
+    right: 50%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    }
+    .carousel-caption {
+        text-align: left;
+    }
+}

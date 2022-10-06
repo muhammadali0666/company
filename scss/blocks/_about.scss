@@ -1,0 +1,128 @@
+.about {
+    background-image: url(../../img/Game-zone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.about-inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.product-bottom-btn-extra {
+    color: #fff;
+}
+.about-paragraph {
+    width: 242px;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+color: #FFFFFF;
+transform: translate(+135px, +35px);
+background-color: #22275E;
+}
+.hr {
+    border: 2px solid #FFFFFF;
+    margin-bottom: 44px;
+}
+.product-item-paragraph-extra:hover {
+    color: #fff;
+}
+.product-item-extra:hover {
+    background: #060F42;
+    box-shadow: 0px 2px 10px rgba(50, 50, 71, 0.14);
+    border-radius: 4px;
+}
+.product-item-p-extra:hover{
+    color: #fff;
+}
+.product-item-bottom-p-extra:hover{
+    color: #fff;
+
+}
+.about-bottom-paragraph {
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 32px;
+color: #FFFFFF;
+margin-top: 94px;
+}
+.about-bottom-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0;
+}
+.about-bottom-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-bottom-item-p {
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 18px;
+}
+@media only screen and (max-width: 670px) {
+    .about-inner {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .product-bottom-btn-extra {
+        color: #fff;
+    }
+    .about-paragraph {
+        width: 150px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    transform: translate(+65px, +25px);
+    background-color: #22275E;
+    }
+    .hr {
+        border: 2px solid #FFFFFF;
+        margin-bottom: 44px;
+    }
+    .product-item-paragraph-extra:hover {
+        color: #fff;
+    }
+
+    .about-bottom-paragraph {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 34px;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+    .about-bottom-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .about-bottom-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-bottom-item-p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 18px;
+    }
+}

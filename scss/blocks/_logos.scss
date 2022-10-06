@@ -1,0 +1,28 @@
+.logos-inner {
+  margin-bottom: 32px;
+  padding-bottom: 53px;
+}
+.logos-paragraph {
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 32px;
+color: #333333;
+margin-bottom: 32px;
+}
+.logo-lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0;
+}
+.logo-item + .logo-item{
+margin-left: 42px;
+}
+@media only screen and (max-width: 1463px) {
+  .logo-lists {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}

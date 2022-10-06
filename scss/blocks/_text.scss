@@ -1,0 +1,44 @@
+.text-inner {
+  padding-left: 129px;
+  padding-right: 129px;
+}
+.text-paragraph {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 36px;
+color: #060F42;
+margin-bottom: 24px;
+}
+.text-p {
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+color: #333333;
+}
+@media only screen and (max-width: 850px) {
+  .text-inner {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  .text-paragraph {
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #060F42;
+  margin-bottom: 24px;
+  }
+  .text-p {
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #333333;
+  }
+}
